@@ -1,7 +1,7 @@
 // Configuration for the external link button
 var externalLinkConfig = {
-    url: 'https://example.com',  // Change this to your desired URL
-    backgroundColor: '#fff',      // Button background color
+    url: 'https://github.com/BenjaminLenstra/Ontwerp-Reconstructie-Hoevelaken-Midden/blob/d34c2298caae9a0dedd89cfe6bc2091a883e8bed/Ondersteunend%20rapport.pdf',  // Change this to your desired URL
+    backgroundColor: '#00ff00',      // Button background color
     icon: 'fas fa-external-link-alt'  // FontAwesome icon class
 };
 
@@ -42,3 +42,4 @@ L.Control.ExternalLinkButton = L.Control.extend({
 L.control.externalLinkButton = function(opts) {
     return new L.Control.ExternalLinkButton(opts);
 };
+
